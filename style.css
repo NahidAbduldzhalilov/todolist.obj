@@ -1,0 +1,180 @@
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin: 24px;
+}
+h1 {
+  max-height: 70px;
+  /* Diplay / Heading-3 - Semibold */
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+span:hover {
+  display: block;
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: 0.5s;
+}
+#add {
+  /* Button Atom */
+
+  width: 166px;
+  height: 39px;
+  border-radius: 4px;
+  background: rgb(39, 40, 41);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#idinput {
+  box-sizing: border-box;
+  /* Stroke/Input */
+  border: 1px solid rgb(206, 212, 218);
+  border-radius: 4px;
+
+  /* /Gray / White */
+  background: rgb(255, 255, 255);
+
+  width: 356px;
+  height: 38px;
+}
+.buttons {
+  display: flex;
+  border-radius: 0px 0px 16px 16px;
+  justify-content: space-between;
+  background: rgb(245, 245, 245);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.containerbox {
+  /* Group 6 */
+  border-radius: 16px;
+
+  /* Large-Shadow */
+  box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.16);
+  background: rgb(255, 255, 255);
+  max-width: 594px;
+  width: 100%;
+  /* max-height: 386px; */
+  margin: 0 auto;
+  background: white;
+}
+#deleteCompleted {
+  /* Secondary / Secondary Button */
+  width: 214px;
+  height: 39px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 16px 10px 16px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+
+  border-radius: 4px;
+
+  /* Secondary/color */
+  background: rgb(108, 117, 125);
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  border: none;
+  text-align: center;
+}
+
+#deleteAll {
+  /* Danger / Danger Button */
+  border: none;
+  width: 134px;
+  height: 39px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 16px 10px 16px;
+
+  /* Inside Auto Layout */
+  /* flex: none; */
+
+  border-radius: 4px;
+
+  /* /Status Color / Danger */
+  background: rgb(220, 53, 69);
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.checkboxes__everycheckbox {
+  color: rgb(84, 89, 94);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+}
+span {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+hr {
+  margin-bottom: 32px;
+}
+.buttons {
+  padding: 18px 24px;
+}
+body {
+  background: rgb(212, 211, 216);
+}
+.d-none {
+  display: none;
+}
+
+.inputdiv {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+.line {
+  text-decoration: line-through;
+}
